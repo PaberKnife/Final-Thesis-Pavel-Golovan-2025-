@@ -55,9 +55,9 @@ MonoBehaviour:
     null\r\n    timeAndOffset: %UnityEngineVector2, null\r\n    syncFrequency: %SystemSingle,
     null\r\n    allowGuestControl: %SystemBoolean, null\r\n    __returnValue: %SystemObject,
     null\r\n    audio: %UnityEngineAudioSource, null\r\n    volume: %UnityEngineUISlider,
-    null\r\n    pause: %SystemBoolean, null\r\n\r\n.data_end\r\n\r\n.code_start\r\n\r\n   
-    .export OnURLChanged\r\n    \r\n    OnURLChanged:\r\n    \r\n        PUSH, __object_0\r\n       
-    EXTERN, \"VRCSDKBaseNetworking.__get_LocalPlayer__VRCSDKBaseVRCPlayerApi\"\r\n       
+    null\r\n\r\n.data_end\r\n\r\n.code_start\r\n\r\n    .export OnURLChanged\r\n   
+    \r\n    OnURLChanged:\r\n    \r\n        PUSH, __object_0\r\n        EXTERN,
+    \"VRCSDKBaseNetworking.__get_LocalPlayer__VRCSDKBaseVRCPlayerApi\"\r\n       
     PUSH, __object_0\r\n        PUSH, __result_0\r\n        EXTERN, \"VRCSDKBaseUtilities.__IsValid__SystemObject__SystemBoolean\"\r\n       
     PUSH, __result_0\r\n        JUMP_IF_FALSE, 0x0000010C\r\n        PUSH, __object_0\r\n       
     PUSH, __player_0\r\n        COPY\r\n        PUSH, __object_0\r\n        PUSH,
@@ -967,29 +967,6 @@ MonoBehaviour:
         stringValue: 
       - unityObjectValue: {fileID: 0}
         stringValue: System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|0
-    - fullName: Variable_SystemBoolean
-      uid: 0a2232d4-78e0-4f90-bb6f-28d857168e84
-      position: {x: 0, y: 0}
-      nodeUIDs:
-      - 
-      - 
-      - 
-      - 
-      - 
-      flowUIDs: []
-      nodeValues:
-      - unityObjectValue: {fileID: 0}
-        stringValue: 
-      - unityObjectValue: {fileID: 0}
-        stringValue: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|pause
-      - unityObjectValue: {fileID: 0}
-        stringValue: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral,
-          PublicKeyToken=b77a5c561934e089|False
-      - unityObjectValue: {fileID: 0}
-        stringValue: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral,
-          PublicKeyToken=b77a5c561934e089|False
-      - unityObjectValue: {fileID: 0}
-        stringValue: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|none
     - fullName: VRCSDK3VideoComponentsBaseBaseVRCVideoPlayer.__get_IsPlaying__SystemBoolean
       uid: 82c36d15-d23e-4571-97ec-6bd1b75c37a2
       position: {x: 1986.9004, y: 516}
@@ -1100,4 +1077,4 @@ MonoBehaviour:
     jsonData: '{"uid":"32af498c-cc99-4bf4-8abd-d7442904b53b","layout":{"serializedVersion":"2","x":2325.0,"y":874.0000610351563,"width":733.0,"height":349.0},"containedElements":["5db28e5e-1810-4f49-bf8f-a74f0dfd44c0","336faa5f-ff06-4cdb-bbf1-562698297d43","301dab5a-d448-49f4-b30e-c3c594122288","81f899d4-6a5b-4275-942a-bbbe422c04ee","017d6854-eb89-4e74-8d89-7523fb218937"],"title":"Volume
       Slider","layer":-1,"elementTypeColor":{"r":0.0,"g":0.0,"b":0.0,"a":1.0}}'
   version: 1.0.0
-  showAssembly: 0
+  showAssembly: 1
